@@ -29,8 +29,8 @@ defmodule BambooSmtp.Mixfile do
   defp deps do
     [
       # core
-      {:bamboo, "~> 2.2.0"},
-      {:gen_smtp, "~> 1.2.0"},
+      {:bamboo, "~> 2.2"},
+      {:gen_smtp, "~> 1.2"},
 
       # dev / test
       {:credo, "~> 1.6.1", only: [:dev, :test]},
